@@ -1,4 +1,4 @@
-﻿# verify-alignment.ps1
+# verify-alignment.ps1
 # PURPOSE: Verify the correct implementation of the repository split and independent agent configurations
 # LAST MODIFIED: 2026-08-12
 # MODIFIED BY: Agent
@@ -9,7 +9,7 @@ Write-Host "=== Starting Repository-Level Split Compliance Audit ===" -Foregroun
 
 # 1. Verify New Folder Structure
 Write-Host "`n[1] Checking Directory Names..." -ForegroundColor Yellow
-$folders = @("ha config", "ha backup full", "ha_backup_slim", "ha core", "1lm stack core", "11m stack_config", "11m stack_backup", "agents_and_prompts", "homelab infra", "homelab config")
+$folders = @("ha config", "ha backup full", "ha_backup", "ha core", "1lm stack core", "11m stack_config", "11m stack_backup", "agents_and_prompts", "homelab infra", "homelab config")
 foreach ($f in $folders) {
     $path = "C:\GitHub\$f"
     if (Test-Path $path) {
@@ -80,7 +80,7 @@ Write-Host "`n[6] Auditing Git Remotes..." -ForegroundColor Yellow
 $remotes = @{
     "ha config"          = "ha_config.git"
     "ha backup full"     = "ha_backup_full.git"
-    "ha_backup_slim"     = "ha_backup_slim.git"
+    "ha_backup"     = "ha_backup.git"
     "ha core"            = "ha_core.git"
     "1lm stack core"     = "LLM_Stack.git"
     "11m stack_config"   = "11m_stack_config.git"
@@ -103,4 +103,5 @@ foreach ($repo in $remotes.Keys) {
 }
 
 Write-Host "`n=== Audit Complete ===" -ForegroundColor Cyan
+
 

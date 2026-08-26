@@ -1,5 +1,6 @@
 
 
 ## 🔗 Related & Sister Repositories
-- [Cisco-DX80-Mod](file:///c:/GitHub/Cisco-DX80-Mod): Cisco DX80 CE firmware macros & UI modifications.
-- [VKS-Kiosk](file:///c:/GitHub/VKS-Kiosk): VKS Kiosk deployment and web interface.
+- [vks_cisco_dx80_mod](file:///c:/GitHub/vks_cisco_dx80_mod): Cisco DX80 CE firmware macros & UI modifications.
+- [vks_kiosk](file:///c:/GitHub/vks_kiosk): VKS Kiosk deployment and web interface.
+

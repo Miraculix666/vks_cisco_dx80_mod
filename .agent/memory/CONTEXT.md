@@ -45,8 +45,8 @@
 - ✅ Consolidated L-Kennung query scripts into `Get-LKennungUser.ps1`.
 - ✅ Consolidated L-Kennung report/table scripts into `New-LKennungReport.ps1`.
 - ✅ Consolidated DNS setup and repair scripts into `Setup-DnsServer.ps1`.
-- ✅ Moved `win11-hardening` to `Skripts-and-tools` and established a Windows Directory Junction back in `Schul-OPSI`.
-- ✅ Extracted and migrated `extract_opsi.ps1` to `Schul-OPSI\tools\Extract-OpsiData.ps1`.
+- ✅ Moved `win11-hardening` to `Skripts-and-tools` and established a Windows Directory Junction back in `opsi_scripts`.
+- ✅ Extracted and migrated `extract_opsi.ps1` to `opsi_scripts\tools\Extract-OpsiData.ps1`.
 - ✅ Implemented `Import-Environment.ps1` config loader and `environment.json.example` configuration template.
 - ✅ Systematically scrubbed all AI/agent references and `Miraculix666` usernames, replacing them with standard systems administration headers.
 - ✅ Generated `README.md` and `CHANGELOG.md` files at the root level and in all category subdirectories for all three repositories.
@@ -99,3 +99,4 @@ On session end:
 - Updated `tibber_smart_device.yaml` to use modern `action:` syntax.
 - Updated `universal_notification.yaml` to use modern `notify.send_message` action instead of deprecated `notify.*` services.
 - Removed hardcoded personal device entity_id `notify.mobile_app_marius_mi_15t_pro` from `blueprints/scripts/universal_notification.yaml`.
+
