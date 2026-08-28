@@ -1,0 +1,35 @@
+<Extensions>
+  <Version>1.9</Version>
+  <Panel>
+    <Order>1</Order>
+    <PanelId>meetings_panel</PanelId>
+    <Origin>local</Origin>
+    <Location>HomeScreenAndCallControls</Location>
+    <Icon>Handset</Icon>
+    <Color>#1464A0</Color>
+    <Name>Meetings</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Meeting Schnellstart</Name>
+      <Row>
+        <Name>Microsoft Teams</Name>
+        <Widget>
+          <WidgetId>teams</WidgetId>
+          <Name>Teams Meeting</Name>
+          <Type>Button</Type>
+          <Options>size=4;icon=teams</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Zoom</Name>
+        <Widget>
+          <WidgetId>zoom</WidgetId>
+          <Name>Zoom Meeting</Name>
+          <Type>Button</Type>
+          <Options>size=4;icon=zoom</Options>
+        </Widget>
+      </Row>
+      <Options>hideRowNames=0</Options>
+    </Page>
+  </Panel>
+</Extensions>

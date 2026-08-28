@@ -1,0 +1,14 @@
+{
+  "DX80IP": "192.168.250.20",
+  "DX80User": "admin",
+  "DX80Password": "",
+  "TelekomRufnummer": "+4923656979837",
+  "TelekomSIPPasswort": "",
+  "TelekomAnschlussart": "Privat",
+  "FonialUser": "Marius.Tyburski@gmail.com",
+  "FonialPasswort": "",
+  "FonialProxy": "sip.fonial.de",
+  "Rufnummer1": "023652969218",
+  "Rufnummer2": "023652969219",
+  "Rufnummer3": "023652969217"
+}

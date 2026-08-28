@@ -1,0 +1,10 @@
+<Configuration>
+  <UserInterface>
+    <WebEngine>
+      <Mode>On</Mode>
+      <Features>
+        <URLBar>On</URLBar>
+      </Features>
+    </WebEngine>
+  </UserInterface>
+</Configuration>

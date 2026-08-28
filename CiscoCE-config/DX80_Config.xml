@@ -1,0 +1,621 @@
+<?xml version="1.0"?>
+<Configuration product="Cisco Codec" version="ce9.15.18.5.ed6b7b134c0" apiVersion="4">
+  <Audio>
+    <DefaultVolume valueSpaceRef="/Valuespace/INT_0_100">50</DefaultVolume>
+    <Input>
+      <Microphone item="1" maxOccurrence="1">
+        <PhantomPower valueSpaceRef="/Valuespace/TTPAR_OnOff">On</PhantomPower>
+      </Microphone>
+      <MicrophoneMode valueSpaceRef="/Valuespace/TTPAR_MicArrayMode">Wide</MicrophoneMode>
+    </Input>
+    <Microphones>
+      <Mute>
+        <Enabled valueSpaceRef="/Valuespace/TTPAR_MuteEnabled">True</Enabled>
+      </Mute>
+      <NoiseRemoval>
+        <Mode valueSpaceRef="/Valuespace/TTPAR_AudioNoiseRemovalMode">Manual</Mode>
+      </NoiseRemoval>
+    </Microphones>
+    <SoundsAndAlerts>
+      <RingTone valueSpaceRef="/Valuespace/STR_1_100_Ringtone">Ascent</RingTone>
+      <RingVolume valueSpaceRef="/Valuespace/INT_0_100">50</RingVolume>
+    </SoundsAndAlerts>
+    <USB>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_ModeUSB">SpeakerAndMicrophone</Mode>
+    </USB>
+    <Ultrasound>
+      <MaxVolume valueSpaceRef="/Valuespace/INT_0_70">70</MaxVolume>
+    </Ultrasound>
+  </Audio>
+  <Bluetooth>
+    <Allowed valueSpaceRef="/Valuespace/TTPAR_TrueFalse">True</Allowed>
+    <Enabled valueSpaceRef="/Valuespace/TTPAR_TrueFalse">True</Enabled>
+  </Bluetooth>
+  <CallHistory>
+    <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Mode>
+  </CallHistory>
+  <Cameras>
+    <Camera item="1" maxOccurrence="1">
+      <Backlight>
+        <DefaultMode valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</DefaultMode>
+      </Backlight>
+    </Camera>
+  </Cameras>
+  <Conference>
+    <AutoAnswer>
+      <Delay valueSpaceRef="/Valuespace/INT_0_50">0</Delay>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</Mode>
+      <Mute valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</Mute>
+    </AutoAnswer>
+    <DefaultCall>
+      <Protocol valueSpaceRef="/Valuespace/TTPAR_CallProtocol">Auto</Protocol>
+      <Rate valueSpaceRef="/Valuespace/INT_64_3072">3072</Rate>
+    </DefaultCall>
+    <DoNotDisturb>
+      <DefaultTimeout valueSpaceRef="/Valuespace/INT_1_1440">60</DefaultTimeout>
+    </DoNotDisturb>
+    <Encryption>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_BestEffortOnOff">BestEffort</Mode>
+    </Encryption>
+    <FarEndControl>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Mode>
+      <SignalCapability valueSpaceRef="/Valuespace/TTPAR_OnOff">On</SignalCapability>
+    </FarEndControl>
+    <FarendMessage>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</Mode>
+    </FarendMessage>
+    <JoinLeaveNotifications valueSpaceRef="/Valuespace/TTPAR_AlwaysNeverAuto">Auto</JoinLeaveNotifications>
+    <MaxReceiveCallRate valueSpaceRef="/Valuespace/INT_64_3072">3072</MaxReceiveCallRate>
+    <MaxTotalReceiveCallRate valueSpaceRef="/Valuespace/INT_64_3072">3072</MaxTotalReceiveCallRate>
+    <MaxTotalTransmitCallRate valueSpaceRef="/Valuespace/INT_64_3072">3072</MaxTotalTransmitCallRate>
+    <MaxTransmitCallRate valueSpaceRef="/Valuespace/INT_64_3072">3072</MaxTransmitCallRate>
+    <MicUnmuteOnDisconnect>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Mode>
+    </MicUnmuteOnDisconnect>
+    <Multipoint>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_MultipointOnCucmWithOutMultisiteVs">Auto</Mode>
+    </Multipoint>
+  </Conference>
+  <FacilityService>
+    <Service item="1" maxOccurrence="5">
+      <CallType valueSpaceRef="/Valuespace/TTPAR_MediaType">Video</CallType>
+      <Name valueSpaceRef="/Valuespace/STR_0_1024_NoInvalidXmlChars">Live Support</Name>
+      <Number valueSpaceRef="/Valuespace/STR_0_1024_NoInvalidXmlChars"></Number>
+      <Type valueSpaceRef="/Valuespace/TTPAR_FacilityServiceType">Helpdesk</Type>
+    </Service>
+    <Service item="2" maxOccurrence="5">
+      <CallType valueSpaceRef="/Valuespace/TTPAR_MediaType">Video</CallType>
+      <Name valueSpaceRef="/Valuespace/STR_0_1024_NoInvalidXmlChars"></Name>
+      <Number valueSpaceRef="/Valuespace/STR_0_1024_NoInvalidXmlChars"></Number>
+      <Type valueSpaceRef="/Valuespace/TTPAR_FacilityServiceType">Helpdesk</Type>
+    </Service>
+    <Service item="3" maxOccurrence="5">
+      <CallType valueSpaceRef="/Valuespace/TTPAR_MediaType">Video</CallType>
+      <Name valueSpaceRef="/Valuespace/STR_0_1024_NoInvalidXmlChars"></Name>
+      <Number valueSpaceRef="/Valuespace/STR_0_1024_NoInvalidXmlChars"></Number>
+      <Type valueSpaceRef="/Valuespace/TTPAR_FacilityServiceType">Helpdesk</Type>
+    </Service>
+    <Service item="4" maxOccurrence="5">
+      <CallType valueSpaceRef="/Valuespace/TTPAR_MediaType">Video</CallType>
+      <Name valueSpaceRef="/Valuespace/STR_0_1024_NoInvalidXmlChars"></Name>
+      <Number valueSpaceRef="/Valuespace/STR_0_1024_NoInvalidXmlChars"></Number>
+      <Type valueSpaceRef="/Valuespace/TTPAR_FacilityServiceType">Helpdesk</Type>
+    </Service>
+    <Service item="5" maxOccurrence="5">
+      <CallType valueSpaceRef="/Valuespace/TTPAR_MediaType">Video</CallType>
+      <Name valueSpaceRef="/Valuespace/STR_0_1024_NoInvalidXmlChars"></Name>
+      <Number valueSpaceRef="/Valuespace/STR_0_1024_NoInvalidXmlChars"></Number>
+      <Type valueSpaceRef="/Valuespace/TTPAR_FacilityServiceType">Helpdesk</Type>
+    </Service>
+  </FacilityService>
+  <H323>
+    <Authentication>
+      <LoginName valueSpaceRef="/Valuespace/STR_0_50_NoFilt"></LoginName>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</Mode>
+      <Password valueSpaceRef="/Valuespace/PASSWORD_0_50_NoFilt">***</Password>
+    </Authentication>
+    <CallSetup>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_H323_GkMode">Gatekeeper</Mode>
+    </CallSetup>
+    <Encryption>
+      <AES256Support valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</AES256Support>
+      <KeySize valueSpaceRef="/Valuespace/TTPAR_H323_EncKeySize">Min1024bit</KeySize>
+    </Encryption>
+    <Gatekeeper>
+      <Address valueSpaceRef="/Valuespace/STR_0_255_NoFilt"></Address>
+    </Gatekeeper>
+    <H323Alias>
+      <E164 valueSpaceRef="/Valuespace/STR_0_30_NoFilt"></E164>
+      <ID valueSpaceRef="/Valuespace/STR_0_49_NoFilt"></ID>
+    </H323Alias>
+    <NAT>
+      <Address valueSpaceRef="/Valuespace/STR_0_64_NoFilt"></Address>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOffAuto">Off</Mode>
+    </NAT>
+  </H323>
+  <HttpClient>
+    <AllowHTTP valueSpaceRef="/Valuespace/TTPAR_TrueFalse">True</AllowHTTP>
+    <AllowInsecureHTTPS valueSpaceRef="/Valuespace/TTPAR_TrueFalse">False</AllowInsecureHTTPS>
+    <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Mode>
+    <UseHttpProxy valueSpaceRef="/Valuespace/TTPAR_OnOff">On</UseHttpProxy>
+  </HttpClient>
+  <HttpFeedback>
+    <TlsVerify valueSpaceRef="/Valuespace/TTPAR_OnOff">On</TlsVerify>
+    <UseHttpProxy valueSpaceRef="/Valuespace/TTPAR_OnOff">On</UseHttpProxy>
+  </HttpFeedback>
+  <Logging>
+    <CloudUpload>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</Mode>
+    </CloudUpload>
+    <External>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</Mode>
+      <Protocol valueSpaceRef="/Valuespace/TTPAR_SyslogProtocol">SyslogTLS</Protocol>
+      <Server>
+        <Address valueSpaceRef="/Valuespace/STR_0_255_IPorHostname"></Address>
+        <Port valueSpaceRef="/Valuespace/INT_0_65535">514</Port>
+      </Server>
+      <TlsVerify valueSpaceRef="/Valuespace/TTPAR_OnOff">On</TlsVerify>
+    </External>
+    <Internal>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Mode>
+    </Internal>
+  </Logging>
+  <Macros>
+    <AutoStart valueSpaceRef="/Valuespace/TTPAR_OnOff">On</AutoStart>
+    <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Mode>
+    <UnresponsiveTimeout valueSpaceRef="/Valuespace/INT_0_65535">10</UnresponsiveTimeout>
+  </Macros>
+  <Network item="1" maxOccurrence="1">
+    <DNS>
+      <DNSSEC>
+        <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</Mode>
+      </DNSSEC>
+      <Domain>
+        <Name valueSpaceRef="/Valuespace/STR_0_64_NoFilt"></Name>
+      </Domain>
+      <Server item="1" maxOccurrence="3">
+        <Address valueSpaceRef="/Valuespace/STR_0_64_IPv4v6"></Address>
+      </Server>
+      <Server item="2" maxOccurrence="3">
+        <Address valueSpaceRef="/Valuespace/STR_0_64_IPv4v6"></Address>
+      </Server>
+      <Server item="3" maxOccurrence="3">
+        <Address valueSpaceRef="/Valuespace/STR_0_64_IPv4v6"></Address>
+      </Server>
+    </DNS>
+    <IEEE8021X>
+      <AnonymousIdentity valueSpaceRef="/Valuespace/STR_0_64_NoFilt"></AnonymousIdentity>
+      <Eap>
+        <Md5 valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Md5>
+        <Peap valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Peap>
+        <Tls valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Tls>
+        <Ttls valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Ttls>
+      </Eap>
+      <Identity valueSpaceRef="/Valuespace/STR_0_64_NoFilt"></Identity>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</Mode>
+      <Password valueSpaceRef="/Valuespace/PASSWORD_0_50_NoFilt">***</Password>
+      <TlsVerify valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</TlsVerify>
+      <UseClientCertificate valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</UseClientCertificate>
+    </IEEE8021X>
+    <IPStack valueSpaceRef="/Valuespace/TTPAR_IpProtocolWithDual">Dual</IPStack>
+    <IPv4>
+      <Address valueSpaceRef="/Valuespace/STR_0_64_IPv4"></Address>
+      <Assignment valueSpaceRef="/Valuespace/TTPAR_IpAssignment">DHCP</Assignment>
+      <Gateway valueSpaceRef="/Valuespace/STR_0_64_IPv4"></Gateway>
+      <SubnetMask valueSpaceRef="/Valuespace/STR_0_64_IPv4"></SubnetMask>
+    </IPv4>
+    <IPv6>
+      <Address valueSpaceRef="/Valuespace/STR_0_64_IPv6WithNetmask"></Address>
+      <Assignment valueSpaceRef="/Valuespace/TTPAR_IPv6Assignment">Autoconf</Assignment>
+      <DHCPOptions valueSpaceRef="/Valuespace/TTPAR_OnOff">On</DHCPOptions>
+      <Gateway valueSpaceRef="/Valuespace/STR_0_64_IPv6"></Gateway>
+      <InterfaceIdentifier valueSpaceRef="/Valuespace/TTPAR_IPv6InterfaceIdentifier">MAC</InterfaceIdentifier>
+    </IPv6>
+    <MTU valueSpaceRef="/Valuespace/INT_576_1500">1500</MTU>
+    <QoS>
+      <Diffserv>
+        <Audio valueSpaceRef="/Valuespace/INT_0_63">46</Audio>
+        <Data valueSpaceRef="/Valuespace/INT_0_63">34</Data>
+        <ICMPv6 valueSpaceRef="/Valuespace/INT_0_63">0</ICMPv6>
+        <NTP valueSpaceRef="/Valuespace/INT_0_63">0</NTP>
+        <Signalling valueSpaceRef="/Valuespace/INT_0_63">24</Signalling>
+        <Video valueSpaceRef="/Valuespace/INT_0_63">34</Video>
+      </Diffserv>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_QoSMode">Diffserv</Mode>
+    </QoS>
+    <RemoteAccess>
+      <Allow valueSpaceRef="/Valuespace/STR_0_255_IP-List"></Allow>
+    </RemoteAccess>
+    <Speed valueSpaceRef="/Valuespace/TTPAR_InterfaceSpeed">Auto</Speed>
+    <VLAN>
+      <Voice>
+        <Mode valueSpaceRef="/Valuespace/TTPAR_Dot1qMode">Auto</Mode>
+        <VlanId valueSpaceRef="/Valuespace/INT_1_4094">1</VlanId>
+      </Voice>
+    </VLAN>
+  </Network>
+  <NetworkPort item="2" maxOccurrence="1">
+    <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Mode>
+  </NetworkPort>
+  <NetworkServices>
+    <CDP>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Mode>
+    </CDP>
+    <H323>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</Mode>
+    </H323>
+    <HTTP>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_HTTPModes">HTTPS</Mode>
+      <Proxy>
+        <LoginName valueSpaceRef="/Valuespace/STR_0_80_NoFilt"></LoginName>
+        <Mode valueSpaceRef="/Valuespace/TTPAR_HTTPProxyModes">Off</Mode>
+        <PACUrl valueSpaceRef="/Valuespace/STR_0_255_NoFilt"></PACUrl>
+        <Password valueSpaceRef="/Valuespace/PASSWORD_0_64_NoFilt">***</Password>
+        <Url valueSpaceRef="/Valuespace/STR_0_255_NoFilt"></Url>
+      </Proxy>
+    </HTTP>
+    <HTTPS>
+      <Server>
+        <MinimumTLSVersion valueSpaceRef="/Valuespace/TTPAR_TLSVersions_min_11">TLSv1.1</MinimumTLSVersion>
+      </Server>
+      <StrictTransportSecurity valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</StrictTransportSecurity>
+      <VerifyClientCertificate valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</VerifyClientCertificate>
+    </HTTPS>
+    <NTP>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_AutoManualOff">Auto</Mode>
+      <Server item="1" maxOccurrence="3">
+        <Address valueSpaceRef="/Valuespace/STR_0_255_NoFilt">0.tandberg.pool.ntp.org</Address>
+        <Key valueSpaceRef="/Valuespace/PASSWORD_0_2045_NoFilt">***</Key>
+        <KeyAlgorithm valueSpaceRef="/Valuespace/TTPAR_NtpKeyAlgorithm">SHA256</KeyAlgorithm>
+        <KeyId valueSpaceRef="/Valuespace/STR_0_10_NoFilt"></KeyId>
+      </Server>
+      <Server item="2" maxOccurrence="3">
+        <Address valueSpaceRef="/Valuespace/STR_0_255_NoFilt"></Address>
+        <Key valueSpaceRef="/Valuespace/PASSWORD_0_2045_NoFilt">***</Key>
+        <KeyAlgorithm valueSpaceRef="/Valuespace/TTPAR_NtpKeyAlgorithm">SHA256</KeyAlgorithm>
+        <KeyId valueSpaceRef="/Valuespace/STR_0_10_NoFilt"></KeyId>
+      </Server>
+      <Server item="3" maxOccurrence="3">
+        <Address valueSpaceRef="/Valuespace/STR_0_255_NoFilt"></Address>
+        <Key valueSpaceRef="/Valuespace/PASSWORD_0_2045_NoFilt">***</Key>
+        <KeyAlgorithm valueSpaceRef="/Valuespace/TTPAR_NtpKeyAlgorithm">SHA256</KeyAlgorithm>
+        <KeyId valueSpaceRef="/Valuespace/STR_0_10_NoFilt"></KeyId>
+      </Server>
+    </NTP>
+    <SIP>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Mode>
+    </SIP>
+    <SMTP>
+      <From valueSpaceRef="/Valuespace/STR_0_255_NoFilt"></From>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</Mode>
+      <Password valueSpaceRef="/Valuespace/PASSWORD_0_64_NoFilt">***</Password>
+      <Port valueSpaceRef="/Valuespace/INT_0_65535">0</Port>
+      <Security valueSpaceRef="/Valuespace/TTPAR_SmtpType">StartTls</Security>
+      <Server valueSpaceRef="/Valuespace/STR_0_255_NoFilt"></Server>
+      <Username valueSpaceRef="/Valuespace/STR_0_80_NoFilt"></Username>
+    </SMTP>
+    <SNMP>
+      <CommunityName valueSpaceRef="/Valuespace/STR_0_50_NoFilt"></CommunityName>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_SnmpService">Off</Mode>
+      <SystemContact valueSpaceRef="/Valuespace/STR_0_50_NoFilt"></SystemContact>
+      <SystemLocation valueSpaceRef="/Valuespace/STR_0_50_NoFilt"></SystemLocation>
+    </SNMP>
+    <SSH>
+      <HostKeyAlgorithm valueSpaceRef="/Valuespace/TTPAR_SSHHostKeyAlgorithms">RSA</HostKeyAlgorithm>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Mode>
+    </SSH>
+    <Telnet>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</Mode>
+    </Telnet>
+    <Websocket valueSpaceRef="/Valuespace/TTPAR_WebsocketModes">Off</Websocket>
+    <WelcomeText valueSpaceRef="/Valuespace/TTPAR_OnOff">On</WelcomeText>
+    <Wifi>
+      <Allowed valueSpaceRef="/Valuespace/TTPAR_TrueFalse">True</Allowed>
+    </Wifi>
+  </NetworkServices>
+  <Peripherals>
+    <InputDevice>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</Mode>
+    </InputDevice>
+    <Profile>
+      <ControlSystems valueSpaceRef="/Valuespace/TTPAR_ControlSystemsCount">NotSet</ControlSystems>
+    </Profile>
+  </Peripherals>
+  <Phonebook>
+    <Server item="1" maxOccurrence="1">
+      <ID valueSpaceRef="/Valuespace/STR_0_64_NoFilt"></ID>
+      <Pagination valueSpaceRef="/Valuespace/TTPAR_EnabledDisabled">Enabled</Pagination>
+      <TlsVerify valueSpaceRef="/Valuespace/TTPAR_OnOff">On</TlsVerify>
+      <Type valueSpaceRef="/Valuespace/TTPAR_PhonebookTypes">Off</Type>
+      <URL valueSpaceRef="/Valuespace/STR_0_255_NoInvalidXmlChars"></URL>
+    </Server>
+  </Phonebook>
+  <Provisioning>
+    <CUCM>
+      <CallManagementRecords>
+        <CallDiagnostics valueSpaceRef="/Valuespace/TTPAR_EnabledDisabled">Enabled</CallDiagnostics>
+      </CallManagementRecords>
+    </CUCM>
+    <Connectivity valueSpaceRef="/Valuespace/TTPAR_ConnectivityVS">Auto</Connectivity>
+    <ExternalManager>
+      <Address valueSpaceRef="/Valuespace/STR_0_64_NoFilt"></Address>
+      <AlternateAddress valueSpaceRef="/Valuespace/STR_0_64_NoFilt"></AlternateAddress>
+      <Domain valueSpaceRef="/Valuespace/STR_0_64_BasicDomainNameCheck"></Domain>
+      <Path valueSpaceRef="/Valuespace/STR_0_255_NoFilt"></Path>
+      <Protocol valueSpaceRef="/Valuespace/TTPAR_HttpProtocols">HTTP</Protocol>
+    </ExternalManager>
+    <LoginName valueSpaceRef="/Valuespace/STR_0_80_NoFilt"></LoginName>
+    <Mode valueSpaceRef="/Valuespace/TTPAR_ProvisioningModes">CUCM</Mode>
+    <Password valueSpaceRef="/Valuespace/PASSWORD_0_64_NoFilt">***</Password>
+    <TlsVerify valueSpaceRef="/Valuespace/TTPAR_OnOff">On</TlsVerify>
+    <WebexEdge valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</WebexEdge>
+  </Provisioning>
+  <Proximity>
+    <AlternatePort>
+      <Enabled valueSpaceRef="/Valuespace/TTPAR_TrueFalse">False</Enabled>
+    </AlternatePort>
+    <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Mode>
+    <Services>
+      <CallControl valueSpaceRef="/Valuespace/TTPAR_EnabledDisabled">Disabled</CallControl>
+      <ContentShare>
+        <FromClients valueSpaceRef="/Valuespace/TTPAR_EnabledDisabled">Enabled</FromClients>
+        <ToClients valueSpaceRef="/Valuespace/TTPAR_EnabledDisabled">Disabled</ToClients>
+      </ContentShare>
+    </Services>
+  </Proximity>
+  <RoomCleanup>
+    <AutoRun>
+      <ContentType>
+        <Whiteboards valueSpaceRef="/Valuespace/TTPAR_RoomCleanupMode">Daily</Whiteboards>
+      </ContentType>
+      <HourOfDay valueSpaceRef="/Valuespace/INT_0_23">0</HourOfDay>
+    </AutoRun>
+  </RoomCleanup>
+  <RoomScheduler>
+    <Enabled valueSpaceRef="/Valuespace/TTPAR_TrueFalse">False</Enabled>
+  </RoomScheduler>
+  <SIP>
+    <ANAT valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</ANAT>
+    <Authentication>
+      <Password valueSpaceRef="/Valuespace/PASSWORD_0_128_NoFilt">***</Password>
+      <UserName valueSpaceRef="/Valuespace/STR_0_128_NoFilt"></UserName>
+    </Authentication>
+    <DefaultTransport valueSpaceRef="/Valuespace/TTPAR_SIP_DEF_TRNSP">Auto</DefaultTransport>
+    <DisplayName valueSpaceRef="/Valuespace/STR_0_550_NoFilt"></DisplayName>
+    <Ice>
+      <DefaultCandidate valueSpaceRef="/Valuespace/TTPAR_IceDefault">Host</DefaultCandidate>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_IceMode">Auto</Mode>
+    </Ice>
+    <ListenPort valueSpaceRef="/Valuespace/TTPAR_OnOffAuto">On</ListenPort>
+    <MinimumTLSVersion valueSpaceRef="/Valuespace/TTPAR_TLSVersions_min_10">TLSv1.0</MinimumTLSVersion>
+    <Proxy item="1" maxOccurrence="4">
+      <Address valueSpaceRef="/Valuespace/STR_0_255_NoFilt"></Address>
+    </Proxy>
+    <Proxy item="2" maxOccurrence="4">
+      <Address valueSpaceRef="/Valuespace/STR_0_255_NoFilt"></Address>
+    </Proxy>
+    <Proxy item="3" maxOccurrence="4">
+      <Address valueSpaceRef="/Valuespace/STR_0_255_NoFilt"></Address>
+    </Proxy>
+    <Proxy item="4" maxOccurrence="4">
+      <Address valueSpaceRef="/Valuespace/STR_0_255_NoFilt"></Address>
+    </Proxy>
+    <TlsVerify valueSpaceRef="/Valuespace/TTPAR_OnOff">On</TlsVerify>
+    <Turn>
+      <Password valueSpaceRef="/Valuespace/PASSWORD_0_128_NoFilt">***</Password>
+      <Server valueSpaceRef="/Valuespace/STR_0_255_NoFilt"></Server>
+      <UserName valueSpaceRef="/Valuespace/STR_0_128_NoFilt"></UserName>
+    </Turn>
+    <URI valueSpaceRef="/Valuespace/STR_0_255_NoFilt"></URI>
+  </SIP>
+  <Security>
+    <Audit>
+      <Logging>
+        <Mode valueSpaceRef="/Valuespace/TTPAR_AuditLoggingMode">Internal</Mode>
+      </Logging>
+      <OnError>
+        <Action valueSpaceRef="/Valuespace/TTPAR_AuditOnErrorAction">Ignore</Action>
+      </OnError>
+      <Server>
+        <Address valueSpaceRef="/Valuespace/STR_0_255_IPorHostname"></Address>
+        <Port valueSpaceRef="/Valuespace/INT_0_65535">514</Port>
+        <PortAssignment valueSpaceRef="/Valuespace/TTPAR_AutoManual">Auto</PortAssignment>
+      </Server>
+    </Audit>
+    <Fips>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</Mode>
+    </Fips>
+    <Session>
+      <FailedLoginsLockoutTime valueSpaceRef="/Valuespace/INT_0_10000">60</FailedLoginsLockoutTime>
+      <InactivityTimeout valueSpaceRef="/Valuespace/INT_0_10000">0</InactivityTimeout>
+      <MaxFailedLogins valueSpaceRef="/Valuespace/INT_0_10">0</MaxFailedLogins>
+      <MaxSessionsPerUser valueSpaceRef="/Valuespace/INT_1_20">20</MaxSessionsPerUser>
+      <MaxTotalSessions valueSpaceRef="/Valuespace/INT_1_20">20</MaxTotalSessions>
+      <ShowLastLogon valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</ShowLastLogon>
+    </Session>
+  </Security>
+  <SerialPort>
+    <LoginRequired valueSpaceRef="/Valuespace/TTPAR_OnOff">On</LoginRequired>
+    <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Mode>
+  </SerialPort>
+  <Standby>
+    <Control valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Control>
+    <Delay valueSpaceRef="/Valuespace/INT_1_480">10</Delay>
+    <Halfwake>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_AutoManual">Auto</Mode>
+    </Halfwake>
+    <WakeupOnMotionDetection valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</WakeupOnMotionDetection>
+  </Standby>
+  <SystemUnit>
+    <CrashReporting>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</Mode>
+      <URL valueSpaceRef="/Valuespace/STR_0_255_NoInvalidXmlChars"></URL>
+    </CrashReporting>
+    <CustomDeviceId valueSpaceRef="/Valuespace/STR_0_255_NoFilt"></CustomDeviceId>
+    <Name valueSpaceRef="/Valuespace/STR_0_50_NoFilt"></Name>
+  </SystemUnit>
+  <Time>
+    <DateFormat valueSpaceRef="/Valuespace/TTPAR_DateFormat">DD_MM_YY</DateFormat>
+    <TimeFormat valueSpaceRef="/Valuespace/TTPAR_TimeFormat">24H</TimeFormat>
+    <Zone valueSpaceRef="/Valuespace/TTPAR_OlsonTimeZone">Etc/UTC</Zone>
+  </Time>
+  <UserInterface>
+    <Accessibility>
+      <IncomingCallNotification valueSpaceRef="/Valuespace/TTPAR_AccessibilityCallNotification">Default</IncomingCallNotification>
+    </Accessibility>
+    <Bookings>
+      <Visibility>
+        <Title valueSpaceRef="/Valuespace/TTPAR_AutoHidden">Auto</Title>
+      </Visibility>
+    </Bookings>
+    <Branding>
+      <AwakeBranding>
+        <Colors valueSpaceRef="/Valuespace/TTPAR_AutoNative">Auto</Colors>
+      </AwakeBranding>
+    </Branding>
+    <ContactInfo>
+      <Type valueSpaceRef="/Valuespace/TTPAR_ContactInfoVs">Auto</Type>
+    </ContactInfo>
+    <CustomMessage valueSpaceRef="/Valuespace/STR_0_128_NoFilt"></CustomMessage>
+    <Diagnostics>
+      <Notifications valueSpaceRef="/Valuespace/TTPAR_NotificationsVisibility">Auto</Notifications>
+    </Diagnostics>
+    <Features>
+      <Call>
+        <End valueSpaceRef="/Valuespace/TTPAR_AutoHidden">Auto</End>
+        <JoinWebex valueSpaceRef="/Valuespace/TTPAR_AutoHidden">Auto</JoinWebex>
+        <Keypad valueSpaceRef="/Valuespace/TTPAR_AutoHidden">Auto</Keypad>
+        <MidCallControls valueSpaceRef="/Valuespace/TTPAR_AutoHidden">Auto</MidCallControls>
+        <MusicMode valueSpaceRef="/Valuespace/TTPAR_AutoHidden">Hidden</MusicMode>
+        <Start valueSpaceRef="/Valuespace/TTPAR_AutoHidden">Auto</Start>
+        <VideoMute valueSpaceRef="/Valuespace/TTPAR_AutoHidden">Auto</VideoMute>
+      </Call>
+      <HideAll valueSpaceRef="/Valuespace/TTPAR_TrueFalse">False</HideAll>
+      <Share>
+        <Start valueSpaceRef="/Valuespace/TTPAR_AutoHidden">Auto</Start>
+      </Share>
+      <Whiteboard>
+        <Start valueSpaceRef="/Valuespace/TTPAR_AutoHidden">Auto</Start>
+      </Whiteboard>
+    </Features>
+    <KeyTones>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</Mode>
+    </KeyTones>
+    <Language valueSpaceRef="/Valuespace/TTPAR_MenuLanguages">German</Language>
+    <OSD>
+      <EncryptionIndicator valueSpaceRef="/Valuespace/TTPAR_AutoAlwaysOnAlwaysOff">Auto</EncryptionIndicator>
+      <HalfwakeMessage valueSpaceRef="/Valuespace/STR_0_128_NoFilt"></HalfwakeMessage>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_UserInterfaceOSDModes">Auto</Mode>
+      <Output valueSpaceRef="/Valuespace/TTPAR_OsdOutput_Auto">Auto</Output>
+    </OSD>
+    <Phonebook>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_PhonebookMode">ReadWrite</Mode>
+    </Phonebook>
+    <Proximity>
+      <Notifications valueSpaceRef="/Valuespace/TTPAR_OnOffAuto">Auto</Notifications>
+    </Proximity>
+    <Security>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_UISecurityMode">Normal</Mode>
+    </Security>
+    <SettingsMenu>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_LockedUnlocked">Unlocked</Mode>
+      <Visibility valueSpaceRef="/Valuespace/TTPAR_AutoHidden">Auto</Visibility>
+    </SettingsMenu>
+    <SoundEffects>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Mode>
+    </SoundEffects>
+    <Whiteboard>
+      <ActivityIndicators valueSpaceRef="/Valuespace/TTPAR_OnOff">On</ActivityIndicators>
+    </Whiteboard>
+  </UserInterface>
+  <UserManagement>
+    <LDAP>
+      <Admin>
+        <Filter valueSpaceRef="/Valuespace/STR_0_1024_NoFilt"></Filter>
+        <Group valueSpaceRef="/Valuespace/STR_0_255_NoFilt"></Group>
+      </Admin>
+      <Attribute valueSpaceRef="/Valuespace/STR_0_255_NoFilt"></Attribute>
+      <BaseDN valueSpaceRef="/Valuespace/STR_0_255_NoFilt"></BaseDN>
+      <Encryption valueSpaceRef="/Valuespace/TTPAR_LDAPEncryption">LDAPS</Encryption>
+      <MinimumTLSVersion valueSpaceRef="/Valuespace/TTPAR_TLSVersions_min_10">TLSv1.2</MinimumTLSVersion>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</Mode>
+      <Server>
+        <Address valueSpaceRef="/Valuespace/STR_0_255_NoFilt"></Address>
+        <Port valueSpaceRef="/Valuespace/INT_0_65535">0</Port>
+      </Server>
+      <VerifyServerCertificate valueSpaceRef="/Valuespace/TTPAR_OnOff">On</VerifyServerCertificate>
+    </LDAP>
+    <PasswordPolicy>
+      <Complexity>
+        <MinimumDigits valueSpaceRef="/Valuespace/INT_0_4">0</MinimumDigits>
+        <MinimumLength valueSpaceRef="/Valuespace/INT_0_256">8</MinimumLength>
+        <MinimumLowercase valueSpaceRef="/Valuespace/INT_0_4">0</MinimumLowercase>
+        <MinimumSpecial valueSpaceRef="/Valuespace/INT_0_4">0</MinimumSpecial>
+        <MinimumUppercase valueSpaceRef="/Valuespace/INT_0_4">0</MinimumUppercase>
+      </Complexity>
+      <MaxLifetime valueSpaceRef="/Valuespace/INT_0_7300">0</MaxLifetime>
+      <ReuseLimit valueSpaceRef="/Valuespace/INT_0_24">12</ReuseLimit>
+    </PasswordPolicy>
+  </UserManagement>
+  <Video>
+    <DefaultMainSource valueSpaceRef="/Valuespace/TTPAR_PresentationSources_1">1</DefaultMainSource>
+    <Input>
+      <Connector item="1" maxOccurrence="2">
+        <CameraControl>
+          <CameraId valueSpaceRef="/Valuespace/TTPAR_CameraIdOneCamera">1</CameraId>
+          <Mode valueSpaceRef="/Valuespace/TTPAR_Off">Off</Mode>
+        </CameraControl>
+        <InputSourceType valueSpaceRef="/Valuespace/TTPAR_VideoInputSourceTypeCameraOnly">camera</InputSourceType>
+        <Name valueSpaceRef="/Valuespace/STR_0_50_NoFilt"></Name>
+        <Visibility valueSpaceRef="/Valuespace/TTPAR_ConnectorVisibilityNeverOnly">Never</Visibility>
+      </Connector>
+      <Connector item="2" maxOccurrence="2">
+        <CameraControl>
+          <CameraId valueSpaceRef="/Valuespace/TTPAR_CameraIdOneCamera">1</CameraId>
+          <Mode valueSpaceRef="/Valuespace/TTPAR_Off">Off</Mode>
+        </CameraControl>
+        <InputSourceType valueSpaceRef="/Valuespace/TTPAR_VideoInputSourceType">PC</InputSourceType>
+        <Name valueSpaceRef="/Valuespace/STR_0_50_NoFilt"></Name>
+        <PresentationSelection valueSpaceRef="/Valuespace/TTPAR_VideoInputPresentationSelection">Desktop</PresentationSelection>
+        <Quality valueSpaceRef="/Valuespace/TTPAR_MotionSharpness">Sharpness</Quality>
+        <RGBQuantizationRange valueSpaceRef="/Valuespace/TTPAR_RgbQuantizationRange">Auto</RGBQuantizationRange>
+        <Visibility valueSpaceRef="/Valuespace/TTPAR_ConnectorVisibility">IfSignal</Visibility>
+      </Connector>
+    </Input>
+    <Monitors valueSpaceRef="/Valuespace/TTPAR_Monitors_Single">Single</Monitors>
+    <Output>
+      <Connector item="1" maxOccurrence="1">
+        <Resolution valueSpaceRef="/Valuespace/TTPAR_ScreenSettings_1080_Only">1920_1080_60</Resolution>
+      </Connector>
+    </Output>
+    <Presentation>
+      <DefaultSource valueSpaceRef="/Valuespace/TTPAR_PresentationSources_2Only">2</DefaultSource>
+      <Priority valueSpaceRef="/Valuespace/TTPAR_PresentationPri_def">Equal</Priority>
+    </Presentation>
+    <Selfview>
+      <Default>
+        <FullscreenMode valueSpaceRef="/Valuespace/TTPAR_OnOffCurrent">Current</FullscreenMode>
+        <Mode valueSpaceRef="/Valuespace/TTPAR_OnOffCurrent">Current</Mode>
+        <OnMonitorRole valueSpaceRef="/Valuespace/TTPAR_MonitorRole_First">First</OnMonitorRole>
+        <PIPPosition valueSpaceRef="/Valuespace/TTPAR_PIPPositionCurrent">Current</PIPPosition>
+      </Default>
+      <Mirrored valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Mirrored>
+      <OnCall>
+        <Duration valueSpaceRef="/Valuespace/INT_1_60">10</Duration>
+        <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">On</Mode>
+      </OnCall>
+    </Selfview>
+  </Video>
+  <Webex>
+    <CloudProximity>
+      <GuestShare valueSpaceRef="/Valuespace/TTPAR_AutoOff">Auto</GuestShare>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</Mode>
+    </CloudProximity>
+    <CloudUpgrades>
+      <Mode valueSpaceRef="/Valuespace/TTPAR_OnOff">Off</Mode>
+    </CloudUpgrades>
+    <Meetings>
+      <JoinProtocol valueSpaceRef="/Valuespace/TTPAR_WebexJoinProtocol">SIP</JoinProtocol>
+    </Meetings>
+  </Webex>
+</Configuration>

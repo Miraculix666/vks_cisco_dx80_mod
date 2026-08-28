@@ -1,0 +1,16 @@
+{
+  "name": "ciscoce-config",
+  "version": "1.0.0",
+  "description": "This sub-project focuses on \"unchaining\" the Cisco DX80 running CE firmware (9.15+) and turning it into a modern, dual-purpose collaboration workstation.",
+  "main": "MeetingShortcuts.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
