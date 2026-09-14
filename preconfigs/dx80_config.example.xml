@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+  <NetworkServices>
+    <HTTP>
+      <Mode>HTTP+HTTPS</Mode>
+    </HTTP>
+  </NetworkServices>
+  <UserInterface>
+    <SettingsMenu>
+      <Mode>Unlocked</Mode>
+    </SettingsMenu>
+  </UserInterface>
+</Configuration>
